@@ -9,7 +9,7 @@
     "handlebars": "^4.0.11"
   },
   "scripts": {
-    "precompile": "handlebars email.hbs -c handlebars -f email.js",
+    "precompile": "handlebars email.hbs --commonjs handlebars --output email.js",
     "start": "node index.js"
   }
 }
