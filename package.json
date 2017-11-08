@@ -1,0 +1,15 @@
+{
+  "name": "inliner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "matt burke",
+  "license": "MIT",
+  "dependencies": {
+    "css-inliner": "^1.1.3",
+    "handlebars": "^4.0.11"
+  },
+  "scripts": {
+    "precompile": "handlebars email.hbs -f email.js",
+    "start": "node index.js"
+  }
+}
